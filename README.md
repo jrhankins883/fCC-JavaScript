@@ -1,6 +1,6 @@
 # freeCodeCamp-JavaScript
 
-This repository is for any projects I work on from the free Code Camp - JavaScript Algorithms and Data Structures Certification 
+This repository is for any projects I work on from the free Code Camp - JavaScript Algorithms and Data Structures Certification. On these projects, I rarely work on the HTML and CSS files. More often than not, that is already given and I work on the JavaScript part of the project (since these projects are designed for JavaScript learning).
 
 ## Calorie Counter Project
 ![Calorie Counter](screenshots/calorie-counter.png)
