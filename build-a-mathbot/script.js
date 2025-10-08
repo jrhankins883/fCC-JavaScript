@@ -18,4 +18,6 @@ console.log(numRoundedDown);
 
 console.log("The Math.ceil() method rounds the value up to the nearest whole integer.");
 const numRoundedUp = Math.ceil(3.2);
-console.log(numRoundedUp)
+console.log(numRoundedUp);
+
+console.log("The Math.round() method rounds the value to the nearest whole integer.");
