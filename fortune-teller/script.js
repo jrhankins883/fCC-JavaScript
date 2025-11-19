@@ -21,4 +21,3 @@ if (randomNumber === 1) {
 
 console.log(selectedFortune)
 
-/* Testing */
