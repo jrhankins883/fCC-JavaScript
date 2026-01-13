@@ -15,11 +15,24 @@ function addLunchToStart(arr, str) {
 addLunchToStart(lunches, "Sushi")
 
 function removeLastLunch(arr) {
-  const last = arr.pop;
-  if (arr.length === 0) {
-    console.log(`${arr} removed from the end of the lunch menu.`)
+  let item = arr;
+  if (item.pop === "Toast") {
+    console.log(`${item} removed from the end of the lunch menu.`)
   } else {
     console.log("No lunches to remove.")
   }
 }
-removeLastLunch("Toast")
+removeLastLunch(lunches, "Toast")
+
+function removeFirstLunch(arr) {
+  if (arr.shift === true) {
+    console.log(`${arr} removed from the start of the lunch menu.`)
+  } else if (arr.length === 0) {
+      console.log("No lunches to remove");
+  }
+}
+removeFirstLunch(lunches, "Salad")
+
+function getRandomLunch(arr) {
+
+}
